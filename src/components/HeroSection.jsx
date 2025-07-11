@@ -3,17 +3,17 @@ import profilePic from '/IMG_1640.jpg';
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="min-h-screen flex flex-col justify-center items-center bg-gray-50 text-center px-4">
-         <img
+    <section id="hero" className="py-8 flex flex-col justify-center items-center bg-gray-50 text-center px-2">
+      <img
         src={profilePic}
         alt="Ahmed Ibrahim"
-        className="w-40 h-40 rounded-full object-cover mb-6 shadow-lg"
+        className="w-32 h-32 rounded-full object-cover mb-4 shadow-lg"
       />
-      <h2 className="text-4xl font-bold mb-4 text-gray-800">Ahmed Ibrahim</h2>
-      <p className="text-lg text-gray-600 mb-6 max-w-2xl">
+      <h2 className="text-2xl font-bold mb-3 text-gray-800"></h2>
+      <p className="text-base text-gray-600 mb-5 max-w-xl">
         ERP Functional Consultant specializing in Microsoft Dynamics AX, Dynamics 365, and Power BI solutions.
       </p>
-      <a href="/Ahmed CV-4-6.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
+      <a href="/Ahmed CV-4-6.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
         View My CV
       </a>
     </section>
